@@ -1,0 +1,50 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    background-color: #1b2040;
+}
+
+#content_gamer_lose{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image_loser{
+    color: white;
+    font-size: 16pt;
+    align-items: center;
+    width: 10%;
+}
+
+#image_loser p{
+    text-align: center;
+}
+
+
+
+#gamer_lose_text{
+    font-size: 16pt;
+    color: white;
+    margin-left: 5%;
+    position: relative;
+    bottom: 10px;
+}
+
+#gamer_lose_text a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+#gamer_lose_text a:hover{
+    color: #3c78bd;
+    transition: 0.5s;
+}
+
+#gamer_lose_text p{
+    display: inline-flex;
+    margin-right: 5%;
+}

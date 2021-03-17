@@ -1,0 +1,314 @@
+html{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* jeu */
+#puzzle10{
+  margin-top: 20px;
+  margin-left: 380px;
+   margin-bottom: 50px;
+}
+#puzzle9{
+  display: none;
+  margin: 10%;
+  margin-left: 35%;
+}
+#puzzle8{
+  display: none;
+  margin: 10%;
+  margin-left: 35%;
+}
+.piece{
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+#item1, #item2, #item3, #item4, #item5, #item6, #item7, #item8, #item9{
+  cursor: grab;
+}
+
+
+
+#body_etape11{
+ margin: 0;
+ padding: 0;
+ background: url(https://mmi19d09.mmi-troyes.fr/Adventroyes/assets/images/image_etape11/troyes.png) no-repeat center fixed;
+ -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+ background-size: cover;
+}
+
+#texte1 p{
+  font-size: 20px;
+}
+#texte2 p{
+  font-size: 20px;
+}
+#texte3 p{
+  font-size: 30px;
+  text-align: center;
+}
+#texte4 p{
+  font-size: 20px;
+  text-align: center;
+  height: 100px;
+}
+
+#gras_enigme{
+  font-size: 20px;
+}
+
+#texte1 {
+  width: 47%;
+  margin-top: 7%;
+  margin-left: 24.5%;
+  padding: 10px;
+  border: 5px solid #efbd76;
+  background: rgb(255, 255, 255, 0.8);
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  text-align: justify;
+  position: fixed;
+}
+
+#texte2 {
+  width: 47%;
+  margin-top: 7%;
+  margin-left: 24.5%;
+  padding: 10px;
+  border: 5px solid #efbd76;
+  background: rgb(255, 255, 255, 0.8);
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  text-align: justify;
+  position: fixed;
+}
+
+#texte3 {
+  width: 1050px;
+  height: 550px;
+  margin-top: 5%;
+  margin-left: 22%;
+  padding: 10px;
+  border: 5px solid #efbd76;
+  background: rgb(255, 255, 255, 0.8);
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  text-align: justify;
+  position: fixed;
+}
+#texte4 {
+  width: 15%;
+  height: 100px;
+  margin-top: 5%;
+  margin-left: 22%;
+  border: 5px solid #efbd76;
+  background: rgb(255, 255, 255, 0.8);
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  text-align: justify;
+  position: fixed;
+}
+#texte4 a{
+  text-decoration: none;
+  color: black;
+  transition-duration: .8s;
+}
+#texte4 a:hover{
+  text-decoration: none;
+  color: #3c78bd;
+    transition-duration: .8s;
+
+}
+#texte3 p{
+  margin-top: 5%;
+  text-align: center;
+}
+
+
+#lien{
+  float: right;
+  margin-top: 40%;
+  margin-right: 10px;
+  background-color: #fff;
+  border: 5px solid #efbd76;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+
+
+
+#lastgarg{
+  margin-left: 75%;
+  cursor: pointer;
+  position: fixed;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1350px){
+  #texte1 p{
+    font-size: 17px;
+  }
+  #texte2 p{
+    font-size: 17px;
+  }
+
+  #texte3 p{
+    font-size: 11px;
+  }
+
+  #gras_enigme{
+    font-size: 17px;
+  }
+
+  input::placeholder{
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1350px){
+  #texte1 p{
+    font-size: 16px;
+  }
+  #texte2 p{
+    font-size: 16px;
+  }
+
+  #texte3 p{
+    font-size: 10px;
+  }
+
+  #gras_enigme{
+    font-size: 16px;
+  }
+
+  input::placeholder{
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  #texte1 p{
+    font-size: 14px;
+  }
+  #texte2 p{
+    font-size: 14px;
+  }
+  #texte3 p{
+    font-size: 8px;
+  }
+
+  #gras_enigme{
+    font-size: 14px;
+  }
+
+  input::placeholder{
+    font-size: 14px;
+  }
+  #reponsetmtc{
+    width: 8%;
+    height: 20px;
+    margin-top: 25%;
+  }
+
+  #sendreponse{
+    width: 8%;
+    height: 20px;
+    margin-top: 25%;
+  }
+
+
+}
+
+@media only screen and (max-width: 800px){
+  #texte1 p{
+    font-size: 11px;
+  }
+
+  #texte2 p{
+    font-size: 11px;
+  }
+
+  #texte3 p{
+    font-size: 5px;
+  }
+
+  #gras_enigme{
+    font-size: 11px;
+  }
+
+  a{
+    width: 20px;
+    height: 20px;
+  }
+  a img{
+    width: 20px;
+    height: 20px;
+  }
+
+  input::placeholder{
+    font-size: 11px;
+  }
+
+  #reponsetmtc{
+    width: 8%;
+    height: 20px;
+    margin-top: 30%;
+  }
+
+  #sendreponse{
+    width: 8%;
+    height: 20px;
+    margin-top: 30%;
+  }
+
+}
+
+@media only screen and (max-width: 600px){
+  #texte1 p{
+    font-size: 8px;
+  }
+  #texte2 p{
+    font-size: 8px;
+  }
+  #gras_enigme{
+    font-size: 8px;
+  }
+
+  input::placeholder{
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  #texte1 p{
+    font-size: 5px;
+  }
+  #texte2 p{
+    font-size: 5px;
+  }
+  #gras_enigme{
+    font-size: 5px;
+  }
+
+  input::placeholder{
+    font-size: 5px;
+  }
+}

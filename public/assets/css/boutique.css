@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#body-boutique{
+    background-color: #F8F2E3;
+}
+#boutique{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F2E3;
+    color: #29216A;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+h1, h2, #cta, #prix{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+
+#prix{
+    font-size: 1.5em;
+}
+
+#boutique #cta{
+    display: flex;
+    justify-content: center;
+    background-color: #4C75C0;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5% 6%;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1.7em;
+    width: 9%;
+    margin: 2%;
+    cursor: pointer;
+}
+
+#phraseachat{
+    margin-top: 0;
+    display: none;
+    margin-bottom: 0%;
+}
+
+#lien_jouer{
+    margin-top: 0;
+    margin-bottom: 4%;
+    font-size: 1.3em;
+    line-height: 1.5;
+    text-decoration: none;
+    font-weight: bold;
+    color: #29216A;
+    transition: all 0.6s ease;
+}
+
+#lien_jouer:hover{
+
+    color: dodgerblue;
+}
+
+img#mockup1{
+    width: 70.4%;
+    height: 50%;
+}
+
+img#mockup2{
+    width: 44%;
+    height: 50%;
+}
+
+img#mockup1, img#mockup2{
+    margin: 4%;
+}
+
+#mockup{
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+#acheter{
+
+    display: flex;
+    justify-content: center;
+    background-color: #4C75C0;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5% 6%;
+    color: darkblue;
+    text-decoration: none;
+    font-size: 1.7em;
+    width: 9%;
+    margin: 2%;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+#acheter:hover{
+    color: white;
+    text-decoration: none;
+}
+#prix{
+    margin-top: 10px;
+}
+
+#lot{
+    margin-top: 20px;
+}
+
+@media (max-width: 1280px ){
+    h1{
+        margin: 4%;
+    }
+    h1, h2, #cta, #prix{
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    
+    p{
+        font-size: 1.3em;
+        line-height: 1.5;
+    }
+    
+    #prix{
+        font-size: 1.5em;
+    }
+    
+
+    #mockup{
+        width: 70%;
+    }
+
+    #boutique #cta{
+        display: flex;
+        justify-content: center;
+        border-radius: 30px;
+        padding: 2% 10%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    
+    
+    img#mockup1, img#mockup2{
+        text-align: center;
+        margin: 4%;
+    }
+    
+}
+body{
+    background-color: #FFFFFF;
+}
+@media (max-width: 500px ){
+    h1{
+        margin: 4%;
+    }
+    h1, h2, #cta, #prix{
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    
+    p{
+        font-size: 1.3em;
+        line-height: 1.5;
+        text-align: center;
+    }
+    
+    #prix{
+        font-size: 1.5em;
+    }
+    
+
+    #mockup{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    #boutique #cta{
+        border-radius: 30px;
+        padding: 4% 25%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    img#mockup1, img#mockup2{
+        width: 100%;
+        text-align: center;
+        margin: 4%;
+    }
+    
+}

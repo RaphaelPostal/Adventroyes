@@ -1,0 +1,289 @@
+html{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+#body_etape9{
+  background-image: url(https://mmi19d09.mmi-troyes.fr/Adventroyes/assets/images/image_etape9/basilique2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#texte1 p{
+  font-size: 20px;
+}
+#texte2 p{
+  font-size: 20px;
+}
+#texte3 p{
+  font-size: 14px;
+}
+
+#gras_enigme{
+  font-size: 20px;
+}
+
+#texte1 {
+  width: 47%;
+  margin-top: 10%;
+  margin-left: 23%;
+  padding: 10px;
+	border: 5px solid #efbd76;
+  background: rgb(255, 255, 255, 0.8);
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  text-align: justify;
+  position: fixed;
+}
+
+#texte2 {
+  width: 47%;
+  margin-top: 10%;
+  margin-left: 23%;
+  padding: 10px;
+	border: 5px solid #efbd76;
+  background: rgb(255, 255, 255, 0.8);
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  text-align: justify;
+  position: fixed;
+}
+
+#texte3 {
+  width: 47%;
+  margin-top: 10%;
+  margin-left: 23%;
+  padding: 10px;
+	border: 5px solid #efbd76;
+  background: rgb(255, 255, 255, 0.8);
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  text-align: justify;
+  position: fixed;
+}
+
+#lien{
+  float: right;
+  margin-top: 40%;
+  margin-right: 10px;
+  background-color: #fff;
+  border: 5px solid #efbd76;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+input{
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  background: rgb(255, 255, 255, 0);
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+}
+
+input::placeholder{
+  color: black;
+  font-size: 20px;
+}
+
+
+
+#reponsetmtc{
+  background: rgb(255, 255, 255, 0.8);
+    border: 5px solid #efbd76;
+    padding: 1%;
+    border-radius: 25px;
+    width: 10%;
+    position: fixed;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 23%;
+}
+
+#sendreponse{
+  background: rgb(255, 255, 255, 0.8);
+    border: 5px solid #efbd76;
+    padding: 1%;
+    border-radius: 25px;
+    width: 10%;
+    position: fixed;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 37%;
+    font-size: 20px;
+}
+
+#gargchef{
+  margin-top: 3%;
+  margin-left: 75%;
+  cursor: pointer;
+  position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1350px){
+  #texte1 p{
+      font-size: 17px;
+  }
+  #texte2 p{
+    font-size: 17px;
+  }
+
+  #texte3 p{
+    font-size: 11px;
+  }
+
+  #gras_enigme{
+    font-size: 17px;
+  }
+
+  input::placeholder{
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1350px){
+  #texte1 p{
+      font-size: 16px;
+  }
+  #texte2 p{
+    font-size: 16px;
+  }
+
+  #texte3 p{
+    font-size: 10px;
+  }
+
+  #gras_enigme{
+    font-size: 16px;
+  }
+
+  input::placeholder{
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  #texte1 p{
+      font-size: 14px;
+  }
+  #texte2 p{
+    font-size: 14px;
+  }
+  #texte3 p{
+    font-size: 8px;
+  }
+
+  #gras_enigme{
+    font-size: 14px;
+  }
+
+  input::placeholder{
+    font-size: 14px;
+  }
+  #reponsetmtc{
+    width: 8%;
+    height: 20px;
+    margin-top: 25%;
+  }
+
+  #sendreponse{
+    width: 8%;
+    height: 20px;
+    margin-top: 25%;
+  }
+
+
+}
+
+@media only screen and (max-width: 800px){
+  #texte1 p{
+      font-size: 11px;
+  }
+
+  #texte2 p{
+    font-size: 11px;
+  }
+
+  #texte3 p{
+    font-size: 5px;
+  }
+
+  #gras_enigme{
+    font-size: 11px;
+  }
+
+  #lien{
+      width: 20px;
+      height: 20px;
+  }
+  a img{
+      width: 20px;
+      height: 20px;
+  }
+
+  input::placeholder{
+    font-size: 11px;
+  }
+
+  #reponsetmtc{
+      width: 8%;
+      height: 20px;
+      margin-top: 30%;
+    }
+
+    #sendreponse{
+    width: 8%;
+    height: 20px;
+    margin-top: 30%;
+  }
+
+}
+
+@media only screen and (max-width: 600px){
+  #texte1 p{
+      font-size: 8px;
+  }
+  #texte2 p{
+    font-size: 8px;
+  }
+  #gras_enigme{
+    font-size: 8px;
+  }
+
+  input::placeholder{
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  #texte1 p{
+      font-size: 5px;
+  }
+  #texte2 p{
+    font-size: 5px;
+  }
+  #gras_enigme{
+    font-size: 5px;
+  }
+
+  input::placeholder{
+    font-size: 5px;
+  }
+}

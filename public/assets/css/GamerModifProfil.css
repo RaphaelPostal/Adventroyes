@@ -1,0 +1,136 @@
+body {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://mmi19d09.mmi-troyes.fr/Adventroyes/assets/images/HALLES2.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#titremodif {
+    color: white;
+    margin-top: 7%;
+}
+
+#retour-profil{
+    color: white;
+    position: relative ;
+    top: 40px;
+
+}
+#contenu-modif form {
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+}
+#contenu-modif form input {
+    /*margin-top: 5%;*/
+}
+
+.inputmodif{
+    width: 90%;
+    height: 30px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255, 0.7);
+    border: 3px solid #efbd76;
+    padding: 1vw 1.5vw;
+    color: #332B40;
+    font-size: 1em;
+    outline: none;
+
+}
+
+#form-modifs{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 16vw 18vw;
+    grid-column-gap: 30px;
+}
+#form-modifs .inputmodif{
+    margin-top: 10px;
+}
+
+@media all and (min-width: 1300px){
+    .inputmodif{
+        width: 80%;
+        height: 30px;
+        border-radius: 25px;
+        background-color: rgb(255, 255, 255, 0.7);
+        border: 3px solid #efbd76;
+        padding: 1vw 1.5vw;
+        color: #332B40;
+        font-size: 1em;
+        outline: none;
+
+    }
+}
+#form-modifs div{
+  margin-top: 10px;
+}
+#form-modifs p{
+    text-align: justify;
+}
+#linkmdp {
+    margin-top: 15%;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+#linkmdp:hover {
+    text-decoration: underline;
+    color: wheat;
+}
+#ModifPhoto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+#avatarmodif {
+    width: 60%;
+    border-radius: 15px;
+}
+#contenu-modif {
+    margin-top: 8%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#buttonmodifphoto {
+    margin-top: 4%;
+    width: 100px;
+}
+
+
+
+#buttonmodifphoto, #validermodif{
+    height: 20px;
+    margin-top: 5%;
+    width: 15vw;
+    height: 30px;
+    color: #332B40;
+    cursor: pointer;
+    padding: 1vw 1.5vw;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255, 0.7);
+    border: 3px solid #efbd76;
+    margin-top: 5vh;
+    font-size: 1em;
+    font-weight: bold;
+    min-width: 15vw;
+    min-height: 4vw;
+    outline: none;
+}
+#buttonmodifphoto:hover, #validermodif:hover {
+    background-color: #efbd76;
+
+}

@@ -1,0 +1,196 @@
+html{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+#body_etape5{
+  background-image: url(https://mmi19d09.mmi-troyes.fr/Adventroyes/assets/images/image_etape5/ruelle_chats.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#texte1 p{
+  font-size: 25px;
+}
+
+#texte1 {
+  width: 47%;
+  margin-top: 30%;
+  margin-left: 23%;
+  padding: 10px;
+	border: 5px solid #efbd76;
+  background: rgb(255, 255, 255, 0.8);
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  text-align: justify;
+}
+#texte2 {
+  width: 27%;
+  margin-top: 28%;
+  margin-left: 30%;
+  padding: 10px;
+  border: 5px solid #efbd76;
+  background: rgb(255, 255, 255, 0.8) ;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  position: fixed;
+  text-align: center;
+	z-index: 3000;
+}
+h3{
+	font-size: 14px;
+}
+
+#lien{
+  float: right;
+  margin-top: 10%;
+  margin-left: 93%;
+  background-color: #fff;
+  border: 5px solid #efbd76;
+  padding: 1%;
+  border-radius: 10px;
+  position: fixed;
+}
+
+
+#horloge{
+	margin-top: 7%;
+	margin-left: 12%;
+	cursor: pointer;
+	position: fixed;
+}
+
+
+#horloge_proche{
+	margin-top: 5%;
+	margin-left: 25%;
+	cursor: pointer;
+}
+
+#gargouille{
+	margin-top: 28%;
+	margin-left: 29%;
+	cursor: pointer;
+	position: fixed;
+}
+
+#croix{
+	margin-top: 27%;
+	margin-left: 57%;
+	position: fixed;
+	z-index: 10000000;
+	cursor: pointer;
+}
+
+input{
+	border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 1332px){
+	h2{
+	  font-size: 18px;
+	}
+}
+
+
+
+@media only screen and (max-width: 1254px){
+	#texte1 p{
+	  font-size: 22px;
+	}
+
+	h3{
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 1124px){
+	#texte1 p{
+	  font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 1010px){
+	#texte1 p{
+	  font-size: 17px;
+	}
+
+	h2{
+	  font-size: 15px;
+	}
+
+	h3{
+		font-size: 10px;
+	}
+}
+
+@media only screen and (max-width: 865px){
+	#texte1 p{
+	  font-size: 14px;
+	}
+
+	h2{
+	  font-size: 12px;
+	}
+
+	h3{
+		font-size: 8px;
+	}
+	input{
+		width: 45%;
+	}
+}
+
+@media only screen and (max-width: 697px){
+	#texte1 p{
+	  font-size: 11px;
+	}
+	h2{
+	  font-size: 10px;
+	}
+
+	h3{
+		font-size: 7px;
+	}
+	input{
+		width: 45%;
+	}
+}
+
+@media only screen and (max-width: 555px){
+	#texte1 p{
+	  font-size: 9px;
+	}
+
+	h2{
+	  font-size: 8px;
+	}
+
+	h3{
+		font-size: 6px;
+	}
+	input{
+		width: 45%;
+	}
+}
+
+@media only screen and (max-width: 448px){
+	#texte1 p{
+	  font-size: 7px;
+	}
+	h2{
+	  font-size: 7px;
+	}
+
+	h3{
+		font-size: 4px;
+	}
+
+	input{
+		width: 45%;
+	}
+}

@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://mmi19d09.mmi-troyes.fr/Adventroyes/assets/images/cathedrale.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#autotext, #autotext2 {
+    font-size: 200%;
+    letter-spacing: 0.05em;
+    animation: blink 0.75s step-end infinite;
+    width: 70%;
+    margin-left: 5%;
+    padding: 10px;
+  background: rgb(255, 255, 255, 0.8) ;
+  border: 5px solid #efbd76;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+#flechelien {
+    position: absolute;
+    position: fixed;
+    margin-top: 35%;
+    margin-left: 93%;
+    padding: 10px;
+  background: rgb(255, 255, 255, 0.8) ;
+  border: 5px solid #efbd76;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+#gargouilleetape10 {
+    width: 20%;
+    position: absolute;
+    top: 45%;
+    left: 2%;
+}
+#reponse-etape10  {
+    width: 12vw;
+    height: 30px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255, 0.7);
+    border: 3px solid #efbd76;
+    padding: 1vw 1.5vw;
+    margin-top: 3vw;
+    color: #332B40;
+    font-size: 1em;
+    outline: none;
+}
+
+#envoyer-etape10 {
+    height: 20px;
+    margin-top: 5%;
+    width: 15vw;
+    height: 30px;
+    color: #332B40;
+    cursor: pointer;
+    padding: 1vw 1.5vw;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255, 0.7);
+    border: 3px solid #efbd76;
+    margin-top: 5vh;
+    font-size: 1em;
+    font-weight: bold;
+    min-width: 15vw;
+    min-height: 4vw;
+    outline: none;
+}
+
+#envoyer-etape10:hover {
+    background-color: #efbd76;
+
+}
+
+#formetape10 {
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    margin-left: 60vw ;
+}

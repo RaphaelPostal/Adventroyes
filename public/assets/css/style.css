@@ -1,0 +1,114 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+#titre{
+    color:blue;
+    text-align: center;
+    margin-top: 40px;
+}
+
+p{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    background-color: cornflowerblue;
+    height: 150px;
+}
+
+#logo{
+    color:white;
+    margin: 0;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 32px ;
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 30px;
+    height: 62px;
+
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-top: 40px;
+    padding-top: 0;
+    font-size: 16px;
+    font-family: Arial;
+    animation: none;
+    line-height: 10px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: white;
+
+}
+
+/*CORPS DE PAGE : */
+
+#accueil_img{
+    width: 80%;
+    margin-left: 10%;
+}
+
+footer{
+    background-color: black;
+    height: 110px;
+
+}
+
+footer a{
+    color: white;
+    text-decoration: underline;
+}
+#infos_footer{
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding-top: 50px;
+    width: 80%;
+}
+
+#myTable thead tr{
+    background-color: cornflowerblue;
+}
+
+#myTable_wrapper{
+    width: 85%;
+    margin: auto;
+}
+
+.photo{
+    width: 50px;
+}
+
+.photo-profil{
+    width: 100px;
+}
+
+.erreur-file{
+    color: #DD4814;
+    text-align: center;
+}
+
+.confirm{
+    color: #117a8b;
+    text-align: center;
+}

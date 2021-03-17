@@ -1,0 +1,81 @@
+#new_gamer {
+	background-image: url("https://mmi19d09.mmi-troyes.fr/Adventroyes/assets/images/image_stats/mairie_blur.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	padding:0;
+	margin:0;
+
+	font-family: Roboto, sans-serif;
+}
+
+form.form_new_gamer {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+
+}
+
+div.div_new_gamer {
+    display: table-row;
+}
+
+input {
+	opacity: 1;
+	background-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	border-top-color: transparent;
+	border-bottom-color: white;
+	width: 250px;
+	color: white;
+}
+
+label, input {
+    margin-bottom: 30px;
+    font-size: 25px;
+	color: #FFFFFF;
+}
+
+label {
+    padding-right: 30px;
+}
+
+input#mdp_new_gamer {
+	width: 200px;
+}
+
+#inscrivez_vous {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	color:white;
+}
+
+strong{
+	margin-left: 35%;
+}
+
+#s_inscrire {
+	background-color: #3C78BD;
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 25px;
+	width: 200px;
+	height: 50px;
+	border-radius: 10px;
+	border: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+.footer{
+	position: absolute;
+	bottom: -400px;
+	margin-top: 0;
+}

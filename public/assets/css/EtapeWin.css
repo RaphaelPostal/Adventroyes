@@ -1,0 +1,37 @@
+html{
+	margin: 0;
+	padding: 0;
+	font-family: roboto;
+	background-color: #1b2040;
+}
+
+#page_etape_win{
+	width: 100%;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+#page_etape_win img{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#etape_win_text{
+	display:flex;
+	font-size: 20px;
+}
+
+#etape_win_text a{
+	text-decoration: none;
+	color: white;
+	transition: 0.5s
+}
+
+#etape_win_text a:hover{
+	color: #3078bc;
+	transition: 0.5s
+}

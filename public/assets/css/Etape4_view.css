@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* jeu */
+#jeu {
+    margin: 1%;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    user-select: none;
+}
+#jeu header {
+    margin: 0 auto;
+    width: 431px;
+}
+#jeu h1{
+    background: url(https://mmi19d09.mmi-troyes.fr/Adventroyes/assets/images/image_etape4/flappy-bird-set.png) 0% 340px;
+    padding: 1.2rem 0;
+    margin: 0;
+}
+.score-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 6px;
+    background: #5EE270;
+}
+
+/* texte 1 */
+
+#etape4{
+    margin:0;
+    padding:0;
+    background: url(http://149.91.88.37/Adventroyes/assets/images/image_etape4/decors4.png) no-repeat center fixed;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover;
+
+}
+
+
+#texte1 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px
+}
+
+#texte1 {
+    width: 50%;
+    margin-top: 60vh;
+    margin-left: 23%;
+    padding: 10px;
+    background: rgb(255, 255, 255, 0.8) ;
+    border: 5px solid #efbd76;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+
+#reponse p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px
+}
+
+#reponse {
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 23%;
+    padding: 10px;
+    background: rgb(255, 255, 255, 0.8) ;
+    border: 5px solid #efbd76;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+
+#texte2 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px
+}
+
+#texte2 p {
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 15%;
+    padding: 10px;
+    padding-left: 10px;
+    background: rgb(255, 255, 255, 0.8) ;
+    border: 5px solid #efbd76;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#texte2 img{
+    width: 20%;
+    float: right;
+    margin-top: 18%;
+    margin-right:8%;
+}
+
+#texte2{
+    display: inline-block;
+}
+
+
+
+
+#flechelien{
+    position: absolute;
+    position: fixed;
+    margin-top: 45%;
+    margin-left: 90%;
+    padding: 10px;
+    background: rgb(255, 255, 255, 0.8) ;
+    border: 5px solid #efbd76;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+#envoyer-etape4 {
+    height: 20px;
+    margin-top: 5%;
+    width: 15vw;
+    height: 30px;
+    color: #332B40;
+    cursor: pointer;
+    padding: 1vw 1.5vw;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255, 0.7);
+    border: 3px solid #efbd76;
+    margin-top: 5vh;
+    font-size: 1em;
+    font-weight: bold;
+    min-width: 15vw;
+    min-height: 4vw;
+    outline: none;
+}
+
+#envoyer-etape4:hover {
+    background-color: #efbd76;
+
+}
+#reponse-etape4  {
+    margin-left: 20%;
+    width: 12vw;
+    height: 30px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255, 0.7);
+    border: 3px solid #efbd76;
+    padding: 1vw 1.5vw;
+    color: #332B40;
+    font-size: 1em;
+    outline: none;
+}
+
+#videoetape4 {
+    width: 75%;
+    border-radius: 50px;
+    margin-top: 7%;
+}
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

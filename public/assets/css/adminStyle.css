@@ -1,0 +1,126 @@
+*{
+    margin: 0 auto;
+}
+body{
+
+}
+#retour{
+    font-family: Roboto;
+    font-weight: bold;
+    text-decoration: none;
+    color: #2a62bc;
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+    margin-left: 40px;
+}
+
+span.ui-button-text{
+    color: #000;
+}
+
+input.form-control{
+    border-radius: 0;
+}
+
+
+
+
+a.add_button, a.edit_button, a.clear-filtering, .ui-input-button, .ui-state-default, .ui-widget-content input.ui-state-default{
+    background: #B9A694;
+    border: none;
+    color: #000;
+}
+
+div.ui-widget-content .form-content,.ui-widget-content .form-title{
+    margin: 0 auto;
+    border: none;
+    background: none;
+    width: 50%;
+}
+
+.ui-widget-content h3.form-title{
+    background: #B9A694;
+    color: #000;
+    text-align: center;
+}
+
+a.delete_button{
+    background: #df9f9f;
+}
+
+.ui-widget-header{
+    border-radius: 0;
+    background: #3C78BD;
+}
+
+th.ui-state-default, div.ui-widget-header, a.ui-widget-header, a.ui-widget-header, div.ui-widget-header .ui-state-default, div.form-field-box.even{
+    background: none;
+    border: none;
+}
+
+.groceryCrudTable tfoot tr th>input[type="text"], .dataTables div.form-div th>input[type="text"], .dataTables div.form-div textarea, .dataTables div.form-div select{
+    border: none;
+    border-radius: 0;
+    background: none;
+}
+
+
+table.dataTable tbody tr.odd, table.dataTable tbody tr.odd td.sorting_1,table.dataTable tbody tr.even,table.dataTable tbody tr.even td.sorting_1, table.dataTable tbody tr td{
+    background-color: #fff;
+    border: 1px solid rgba(200, 200, 200, 0.7);
+    text-align: center;
+}
+
+table.dataTable>tbody>tr:hover>td, table.dataTable>tbody>tr:hover>td.sorting_1{
+    background-color: rgba(200, 200, 200, 0.2);
+    color: #000;
+    border: 1px solid rgba(200, 200, 200, 0.7);
+    text-align: center;
+}
+
+a.ui-buttonset, a.fg-button{
+    border:none;
+    background: #fff;
+}
+
+table.dataTable thead tr th, table.dataTable tfoot th{
+    border: 1px solid rgba(200, 200, 200, 0.7);
+    border-top: none;
+    text-align: none;
+    padding-top: 2%;
+    color: #000;
+}
+.dataTables_wrapper, .add_button{
+    margin-left: 30px;
+}
+
+div.ui-corner-tl{
+    color: #000;
+    background: none;
+}
+
+a.ui-corner-all, div.ui-corner-all, .ui-corner-top, div.ui-corner-right, div.ui-corner-tr, div.ui-corner-left, div.ui-corner-tl, div.ui-corner-br{
+    border: 0;
+}
+header a{
+    color: #FFF;
+    text-decoration: none;
+    width: 100%;
+    margin: 0;
+    height: 10%;
+    margin: 5%;
+}
+header{
+    background: #032d6b;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.grocerycrud-container{
+
+}
+
+
+

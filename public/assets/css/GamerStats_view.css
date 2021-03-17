@@ -1,0 +1,178 @@
+#gamer_stats {
+
+	background-image: url("https://mmi19d09.mmi-troyes.fr/Adventroyes/assets/images/image_stats/mairie_blur.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding:0;
+	margin:0;
+	color: white;
+	font-size: 18px;
+	font-family: Roboto, sans-serif;
+}
+
+#retour-profil{
+	color: white;
+	position: relative ;
+	top: 40px;
+	left: 10%;
+}
+
+#container_photo {
+	/*background-color: blue;*/
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+	margin-top:40px;
+	width: 432px;	
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.titre_container {
+	margin-bottom: 20px;
+}
+
+#avatar_gamer_stats {
+	width: 150px;
+	height: auto;
+	margin-top: -15px;
+}
+
+#informations_pseudo {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.nav{
+
+	bottom: 100px;
+}
+
+#container_infos_joueur{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 110px;
+}
+
+.infos_joueur {
+	padding-top: 20px;
+	display: flex;
+	margin-left: 40px;
+}
+
+#big-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+
+#container_gamer_stats {
+
+	margin-left: 10%;
+	height: 600px;
+	display: grid;
+
+}
+
+#container_stats {
+	/*background-color: tomato;*/
+	width: 432px;
+	height: 300px;
+
+}
+
+#container_historique_parties {
+	right: 10%;
+}
+
+#titre-histo{
+	width: 200px;
+	margin-left: 25%;
+	margin-top: 0;
+}
+
+#container_partie_en_cours {
+	background-color: white;
+	color: black;
+	width: 350px;
+	padding: 15px;
+}
+
+.container_partie {
+	background-color: white;
+	color: black;
+	width: 350px;
+	padding: 15px;
+	margin-top: 20px;
+	margin-left: 25%;
+
+}
+
+
+
+.numero_partie {
+	font-weight: bold;
+	color: #3C78BD;
+}
+
+.infos_partie {
+	padding-top: 10px;
+}
+
+.pseudo_classement {
+	display: flex;
+	background-color: white;
+}
+
+#classement {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 200px;
+	height: 300px;
+	padding: 15px;
+	margin-right: 42px;
+
+	color: white;
+}
+
+.container_classement {
+	background-color: white;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	height: 40px;
+	width: 340px;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.score {
+	background-color: white;
+	color: black;
+	display: flex;
+	flex-direction: row;
+	width: 125px;
+}
+
+#numero1{
+	color: gold;
+	font-weight: bold;
+}
+
+#numero2{
+	color: darkgray;
+	font-weight: bold;
+}
+
+#numero3{
+	color: #942a25;
+	font-weight: bold;
+}

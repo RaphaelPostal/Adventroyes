@@ -1,0 +1,148 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://mmi19d09.mmi-troyes.fr/Adventroyes/assets/images/images/STADE.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#autotext, #autotext2 {
+    font-size: 200%;
+    letter-spacing: 0.05em;
+    animation: blink 0.75s step-end infinite;
+    width: 70%;
+    margin-left: 5%;
+    padding: 10px;
+  background: rgb(255, 255, 255, 0.8) ;
+  border: 5px solid #efbd76;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+#flechelien {
+    position: absolute;
+    position: fixed;
+    margin-top: 35%;
+    margin-left: 93%;
+    padding: 10px;
+  background: rgb(255, 255, 255, 0.8) ;
+  border: 5px solid #efbd76;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+#gargouilleetape6 {
+    width: 15%;
+    position: absolute;
+    top: 20%;
+    left: 80%;
+}
+#reponse-etape6  {
+    width: 12vw;
+    height: 30px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255, 0.7);
+    border: 3px solid #efbd76;
+    padding: 1vw 1.5vw;
+    color: #332B40;
+    font-size: 1em;
+    outline: none;
+}
+
+#envoyer-etape6 {
+    height: 20px;
+    width: 15vw;
+    height: 30px;
+    color: #332B40;
+    cursor: pointer;
+    padding: 1vw 1.5vw;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255, 0.7);
+    border: 3px solid #efbd76;
+    font-size: 1em;
+    font-weight: bold;
+    min-width: 15vw;
+    min-height: 4vw;
+    outline: none;
+}
+
+#envoyer-etape6:hover {
+    background-color: #efbd76;
+
+}
+
+#formetape6 {
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 25vw ;
+}
+
+.lettres {
+    position: absolute;
+    cursor: pointer;
+    width: 1%;
+}
+#s {
+    top: 70%;
+    left:93%;
+}
+#t {
+    top: 79%;
+    left:43%;
+}
+#a {
+    top: 1%;
+    left:0.5%;
+}
+#d {
+    top: 50%;
+    left:93%;
+}
+#e {
+    top: 50%;
+    left:10%;
+}
+#i {
+    top: 71%;
+    left: 24%;
+}
+#u {
+    top: 69%;
+    left: 99%;
+}
+#w {
+    top: 71%;
+    left: 5%;
+}
+#y {
+    top: 6%;
+    left: 65%;
+}
+#n {
+    top: 97%;
+    left: 99%;
+}
+
+#cartes {
+    margin-left: 25%;
+    position: absolute;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    top: 90%;
+    background-color: rgb(255, 255, 255, 0.3);
+    border-radius: 5px;
+    
+
+}
+.cartes {
+    width: 7%;
+
+}
+#cross {
+    position: absolute;
+    top: 89%;
+    left: 75%;
+    cursor: pointer;
+}

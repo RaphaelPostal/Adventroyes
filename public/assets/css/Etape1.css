@@ -1,0 +1,224 @@
+html{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+#body_etape1{
+ background: url(https://mmi19d09.mmi-troyes.fr/Adventroyes/assets/images/image_etape1/gare.png) no-repeat center fixed;
+ -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+ background-size: cover; 
+}
+
+#texte1 p{
+  font-size: 20px;
+}
+#texte2 p{
+  font-size: 20px;
+}
+#texte3 p{
+  font-size: 14px;
+}
+
+#gras_enigme{
+  font-size: 20px;
+}
+
+#texte1 {
+  width: 47%;
+  margin-top: 7%;
+  margin-left: 24.5%;
+  padding: 10px;
+  border: 5px solid #efbd76;
+  background: rgb(255, 255, 255, 0.8);
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  text-align: justify;
+  position: fixed;
+}
+
+#texte2 {
+  width: 25%;
+  margin-top: 2%;
+  margin-left: 35%;
+  padding: 10px;
+  border: 5px solid #efbd76;
+  background: rgb(255, 255, 255, 0.8);
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  text-align: justify;
+  position: fixed;
+}
+
+#texte3 {
+  width: 30%;
+  margin-top: 10.5%;
+  margin-left: 32.5%;
+  padding: 10px;
+  border: 5px solid #efbd76;
+  background: rgb(255, 255, 255, 0.8);
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  text-align: justify;
+  position: fixed;
+}
+
+#texte2 p{
+  text-align: center;
+}
+#texte3 p{
+  text-align: center;
+}
+
+#lien{
+  float: right;
+  margin-top: 40%;
+  margin-right: 10px;
+  background-color: #fff;
+  border: 5px solid #efbd76;
+  padding: 1%;
+  border-radius: 10px;
+}
+input{
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  background: rgb(255, 255, 255, 0);
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  cursor: pointer;
+}
+
+input::placeholder{
+  color: black;
+  font-size: 20px;
+}
+
+
+
+#reponsetmtc{
+  background: rgb(255, 255, 255, 0.8);
+  border: 5px solid #efbd76;
+  padding: 1%;
+  border-radius: 25px;
+  width: 10%;
+  position: fixed;
+  text-align: center;
+  margin-top: 18.5%;
+  margin-left: 35%;
+}
+
+#sendreponse{
+  background: rgb(255, 255, 255, 0.8);
+  border: 5px solid #efbd76;
+  padding: 1%;
+  border-radius: 25px;
+  width: 10%;
+  position: fixed;
+  text-align: center;
+  margin-top: 18.5%;
+  margin-left: 49%;
+  font-size: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#sendreponse:hover{
+  background: rgb(239, 189, 118, 1);
+  transition: 0.5s;  
+}
+
+
+#garg_narra{
+  margin-left: 12%;
+  cursor: pointer;
+  position: fixed;
+}
+
+#gd1{
+  margin-left: 250px;
+  margin-top: 30px;
+  position: absolute;
+  cursor: grab;
+  z-index: 1000;
+
+}
+
+#gg1{
+  margin-left: 1250px;
+  margin-top: 600px;
+  position: absolute;
+
+
+}
+
+#gg2{
+  margin-left: 550px;
+  margin-top: 500px;
+  position: absolute;
+  cursor: grab;
+  z-index: 1000;
+
+
+}
+
+#gg3{
+  margin-left: 1050px;
+  margin-top: 600px;
+  position: absolute;
+
+
+}
+
+#gg4{
+  margin-left: 550px;
+  margin-top: 300px;
+  position: absolute;
+  cursor: grab;
+  z-index: 1000;
+
+}
+
+#gg5{
+
+  margin-left: 850px;
+  margin-top: 680px;
+  position: absolute;
+  cursor: grab;
+  z-index: 1000;
+
+}
+
+#gd2{
+ margin-left: 250px;
+ margin-top: 500px;
+ position: absolute;
+ 
+}
+
+#gd3{
+ margin-left: 850px;
+ margin-top: 360px;
+ position: absolute;
+ cursor: grab;
+ z-index: 1000;
+
+}
+#gd4{
+ margin-left: 1230px;
+ margin-top: 300px;
+ position: absolute;
+ 
+
+}
+#gd5{
+  margin-left: 1050px;
+  margin-top: 300px;
+  position: absolute;
+}
+

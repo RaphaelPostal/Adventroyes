@@ -1,0 +1,92 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: roboto;
+}
+
+#corps-accueil{
+	background-color: white;
+}
+#content_image_accueil{
+	background-image: url(https://mmi19d09.mmi-troyes.fr/Adventroyes/assets/images/image_accueil/ruelle_chats.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	box-shadow: 0px 10px 30px black;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-bottom: 70px;
+
+}
+
+#image_accueil{
+	color: white;
+	font-size: 30pt;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+	top:60px;
+}
+
+#fleche{
+	text-align: center;
+	position: relative;
+	top: 10px;
+}
+
+#video_accueil{
+	text-align: center;
+	margin-bottom: 5%;
+}
+#video_accueil h2{
+	font-size: 36pt;
+}
+
+
+#garg_texte{
+	display: flex;
+	justify-content: center;
+	font-size: 16pt;
+	margin: auto;
+	margin-bottom: 5%;
+}
+#garg_texte img{
+	width: 15%;
+	height: 60%;
+	margin-right: 5%;
+}
+#texte-accueil{
+	text-align: justify;
+	width: 50%;
+	line-height: 35px;
+	margin: 0;
+}
+#lien_boutique{
+	text-decoration: none;
+	color: blue;
+	transition-duration: 0.5s;
+}
+#lien_boutique:hover{
+	color: #3c78bd;
+}
+#pied_texte{
+	margin: auto;
+	text-align: center;
+	font-size: 18pt;
+	width: 80%;
+}
+
+#pied_texte a{
+	text-decoration: none;
+	transition-duration: 0.5s;
+	color: blue;
+}
+
+#pied_texte a:hover{
+	color: #3c78bd;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+

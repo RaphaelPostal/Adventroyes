@@ -1,0 +1,86 @@
+body{
+	font-family: Roboto, sans-serif;
+	background-image: url("https://mmi19d09.mmi-troyes.fr/Adventroyes/assets/images/image_login/joyeuse.png");
+	background-size:cover;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+
+
+}
+#oubli{
+	color:white;
+}
+
+
+form.form_connexion {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+
+}
+
+div.div_connexion {
+    display: table-row;
+}
+
+input {
+	opacity: 1;
+	background-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	border-top-color: transparent;
+	border-bottom-color: white;
+	width: 250px;
+	color: white;
+}
+
+label, input {
+    margin-bottom: 30px;
+    font-size: 25px;
+	color: white;
+}
+
+label {
+    padding-right: 30px;
+}
+
+input#mdp_connexion {
+	width: 200px;
+}
+
+#connectez_vous {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+#connecter {
+	background-color: #3C78BD;
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 25px;
+	width: 200px;
+	height: 50px;
+	border-radius: 10px;
+	border: none;
+	margin: 0 auto;
+	padding: 0;
+	cursor: pointer;
+}
+#lien_login{
+	color: blue;
+	text-decoration: none; 
+	font-size: 25px;
+}
+
+.footer{
+	position: absolute;
+	bottom: -200px;
+	margin-top: 0;
+}
